@@ -1,0 +1,78 @@
+# Environment and credentials
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Claude Code files
+.claude/
+.claude_code/
+*.claude
+.clinerules
+
+# Archived and temporary files
+archived/
+archive/
+tmp/
+temp/
+
+# Documentation files (keep only the main ones in root)
+*.md
+!README.md
+!PORTFOLIO_OPTIMIZATION_RESULTS.md
+!GRID_SEARCH_RESULTS.md
+!TREASURY_TERM_GRID_README.md
+
+# Downloads folder (backtesting temp files)
+downloads/
+*.xlsx.download
+*.xlsx.crdownload
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.Python
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Screenshots and debug files
+*.png.debug
+*_failure.png
+error_log.txt
+
+# Large data files (optional - uncomment if needed)
+# *.csv
+# *.xlsx
+# data/source_tables/*.xlsx

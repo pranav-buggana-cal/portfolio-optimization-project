@@ -1,0 +1,46 @@
+
+PROMPTS
+-------
+
+
+------------------------------
+- Update the portfolio_backtest.py script to handle the grid file automatically. And make sure each downloaded backtest result is aliased appropriately (this may have to be done in the orchestrator script, or somewhere in a shell script)
+- Update the backtest_anlaysis script to parse each backtest_results.xlsx file to handle the alias
+------------------------------
+Let us:
+- Modify the constraints so that no single asset class goes to less than 3% allocation
+- Write an orchestrator script that runs grid gen-backtest through portfolio_backtest.py to prepare the portfolio for optimization. This can be a shell script that runs the python scripts. Should be generate_portfolio_grid.py -> portfolio_backtest.py -> backtest_analysis_processor.py
+------------------------------
+Let us convert portfolio_backtesting.ipynb to a script and then send it to 
+the archived/ folder. Then, let us ideate together on a grid to run grid 
+search. For context, look up 
+'/Users/toohla/Documents/GitHub/am_final_proj_25/data/source_tables/Midterm 
+Asset Allocations.xlsx' as a starting point. Leave hedge funds, PE and VC out, 
+and distribute the weights left over to US equities as a starting point 
+
+------------------------------
+Let us refactor by putting the generated data and CSVs from these scripts into the data/folder. Let us further reorg into source_tables/, and generated_tables/
+
+Once that is done, let us test the backtest_analysis.py script, first by wiping the generated tables and running the script to see if it works
+
+Finally, we will continute with the optimization run
+------------------------------
+
+
+
+------------------------------
+Generate Metadata
+------------------------------
+Now, let us edit the portfolio_optimization.ipynb notebook. We need to do the following:
+- In the backtest_analysis.ipynb, we now need to add functionality to capture a bunch of performance metrics and smush them down to one long table of the structure:
+  portfolio_id | metric_name | metric_value
+  We need the tables:
+   * Portfolio Performance (Jan 2003 - Nov 2025)
+   * Risk and Return Metrics (Jan 2003 - Nov 2025)
+  Also, we need to create another running file to track metadata about each portfolio. We need to generate a UUID that maps onto the portfolio_id in the table above, so that we can keep track of various backtesting runs, since we are doing more than 3 backtesting runs for our optimizatione exercise.
+  In the end, we will INNER JOIN our running metadata table that contains:
+  portfolio_uuid | asset_name | portfolio_weight
+  to the performance table in our optimization script in order to pull a metric report. But more critically, to track Sharpe Ratio, which will be our variable to max in the optimization.
+- Once we verify that the the backtest_analysis.ipynb can indeed generate this UUID and the long-format performance metric table, we can convert it into a Python script
+- Next, we will edit the portfolio_optimization.ipynb notebook to use the metadata generated above and come up with an optimal set of weights by portfolio UUID, followed by plots that compare performance metrics for each portfolio UUID
+- Let us build and test these with the first run of backtesting that contains 3 toy results

@@ -1,0 +1,8 @@
+Asset_Number,Asset_Class_Option_Value,Asset_Description,Optimal_Weight_%
+1,TotalStockMarket,US Equities - US Stock Market,31.5
+2,IntlDeveloped,Foreign Developed Equities - Intl Developed ex-US Market,9.0
+3,EmergingMarket,Emerging Market Equities - Emerging Markets,4.5
+4,IntermediateTreasury,US Treasuries - Intermediate Term Treasury,25.0
+5,TIPS,TIPS - Inflation-Protected Bonds,20.0
+6,CorpBond,Corporate Bonds - Investment Grade Corporate Bonds,5.0
+7,REIT,Real Estate/REITs - US REIT,5.0

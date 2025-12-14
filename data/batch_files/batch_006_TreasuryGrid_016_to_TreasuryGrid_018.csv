@@ -1,0 +1,11 @@
+Asset_Number,Asset_Description,TreasuryGrid_016,TreasuryGrid_017,TreasuryGrid_018
+1,US Equities - US Stock Market,31.5,31.5,31.5
+2,Foreign Developed Equities - Intl Developed ex-US Market,9.0,9.0,9.0
+3,Emerging Market Equities - Emerging Markets,4.5,4.5,4.5
+4,US Treasuries - Short Term Treasury,0.0,0.0,0.0
+5,US Treasuries - Intermediate Term Treasury,15.0,15.0,15.0
+6,US Treasuries - 10-year Treasury,0.0,5.0,10.0
+7,US Treasuries - Long Term Treasury,10.0,5.0,0.0
+8,TIPS - Inflation-Protected Bonds,20.0,20.0,20.0
+9,Corporate Bonds - Investment Grade Corporate Bonds,5.0,5.0,5.0
+10,Real Estate/REITs - US REIT,5.0,5.0,5.0

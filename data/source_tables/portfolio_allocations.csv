@@ -1,0 +1,9 @@
+Asset_Number,Asset_Class_Option_Value,Asset_Description,Portfolio_1,Portfolio_2,Portfolio_3
+1,TotalStockMarket,US Equities - US Stock Market,30.0,20.0,40.0
+2,IntlDeveloped,Foreign Developed Equities - Intl Developed ex-US Market,15.0,15.0,15.0
+3,EmergingMarket,Emerging Market Equities - Emerging Markets,8.0,8.0,8.0
+4,IntermediateTreasury,US Treasuries - Intermediate Term Treasury,10.0,20.0,0.0
+5,TIPS,TIPS - Inflation-Protected Bonds,15.0,15.0,15.0
+6,CorpBond,Corporate Bonds - Investment Grade Corporate Bonds,7.5,7.5,7.5
+7,REIT,Real Estate/REITs - US REIT,14.5,14.5,14.5
+

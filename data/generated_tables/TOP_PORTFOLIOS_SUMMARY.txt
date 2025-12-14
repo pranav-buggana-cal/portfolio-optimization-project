@@ -1,0 +1,72 @@
+====================================================================================================
+GRID SEARCH RESULTS: TOP 15 PORTFOLIOS BY SHARPE RATIO
+====================================================================================================
+
+Data: 351 portfolios tested (batches 1-117 of 192 total)
+Period: January 2003 - November 2025 (22.9 years)
+Benchmark: US Stocks (large cap)
+
+ 1. Grid_019     | Sharpe: 0.7045 | CAGR:  7.43% | Vol:  8.34% | MaxDD: -27.28%
+    US Eq:32% | UST:25% | TIPS:20% | Intl Dev:9% | REIT:5% | Corp:5% | EM Eq:4%
+
+ 2. Grid_043     | Sharpe: 0.7022 | CAGR:  7.41% | Vol:  8.33% | MaxDD: -27.22%
+    US Eq:32% | UST:25% | TIPS:20% | Intl Dev:10% | REIT:5% | Corp:5% | EM Eq:4%
+
+ 3. Grid_022     | Sharpe: 0.7000 | CAGR:  7.46% | Vol:  8.45% | MaxDD: -27.44%
+    US Eq:32% | UST:25% | TIPS:15% | Corp:10% | Intl Dev:9% | REIT:5% | EM Eq:4%
+
+ 4. Grid_046     | Sharpe: 0.6978 | CAGR:  7.44% | Vol:  8.44% | MaxDD: -27.38%
+    US Eq:32% | UST:25% | TIPS:15% | Corp:10% | Intl Dev:10% | REIT:5% | EM Eq:4%
+
+ 5. Grid_010     | Sharpe: 0.6967 | CAGR:  7.46% | Vol:  8.49% | MaxDD: -27.95%
+    US Eq:32% | TIPS:23% | UST:20% | Intl Dev:9% | Corp:7% | REIT:5% | EM Eq:4%
+
+ 6. Grid_020     | Sharpe: 0.6947 | CAGR:  7.39% | Vol:  8.41% | MaxDD: -27.68%
+    US Eq:30% | UST:25% | TIPS:20% | Intl Dev:8% | REIT:8% | Corp:5% | EM Eq:4%
+
+ 7. Grid_034     | Sharpe: 0.6945 | CAGR:  7.44% | Vol:  8.48% | MaxDD: -27.89%
+    US Eq:32% | TIPS:23% | UST:20% | Intl Dev:10% | Corp:7% | REIT:5% | EM Eq:4%
+
+ 8. Grid_013     | Sharpe: 0.6941 | CAGR:  7.48% | Vol:  8.55% | MaxDD: -28.04%
+    US Eq:32% | UST:20% | TIPS:20% | Corp:10% | Intl Dev:9% | REIT:5% | EM Eq:4%
+
+ 9. Grid_044     | Sharpe: 0.6925 | CAGR:  7.37% | Vol:  8.41% | MaxDD: -27.63%
+    US Eq:30% | UST:25% | TIPS:20% | Intl Dev:9% | REIT:8% | Corp:5% | EM Eq:3%
+
+10. Grid_037     | Sharpe: 0.6920 | CAGR:  7.46% | Vol:  8.55% | MaxDD: -27.99%
+    US Eq:32% | UST:20% | TIPS:20% | Corp:10% | Intl Dev:10% | REIT:5% | EM Eq:4%
+
+11. Grid_023     | Sharpe: 0.6904 | CAGR:  7.43% | Vol:  8.52% | MaxDD: -27.84%
+    US Eq:30% | UST:25% | TIPS:15% | Corp:10% | Intl Dev:8% | REIT:8% | EM Eq:4%
+
+12. Grid_016     | Sharpe: 0.6895 | CAGR:  7.51% | Vol:  8.67% | MaxDD: -28.20%
+    US Eq:32% | UST:20% | TIPS:15% | Corp:15% | Intl Dev:9% | REIT:5% | EM Eq:4%
+
+13. Grid_047     | Sharpe: 0.6882 | CAGR:  7.40% | Vol:  8.52% | MaxDD: -27.79%
+    US Eq:30% | UST:25% | TIPS:15% | Corp:10% | Intl Dev:9% | REIT:8% | EM Eq:3%
+
+14. Grid_067     | Sharpe: 0.6876 | CAGR:  7.39% | Vol:  8.51% | MaxDD: -28.26%
+    UST:25% | US Eq:25% | TIPS:20% | EM Eq:11% | Intl Dev:9% | REIT:5% | Corp:5%
+
+15. Grid_001     | Sharpe: 0.6874 | CAGR:  7.50% | Vol:  8.68% | MaxDD: -28.63%
+    US Eq:32% | TIPS:23% | UST:16% | Corp:11% | Intl Dev:9% | REIT:5% | EM Eq:4%
+
+====================================================================================================
+
+KEY OBSERVATIONS:
+====================================================================================================
+
+Average allocations in top 10 portfolios:
+  US Equities                   :  31.1%
+  US Treasuries                 :  23.0%
+  TIPS                          :  19.6%
+  Foreign Developed Equities    :   9.3%
+  Corporate Bonds               :   7.4%
+  Real Estate/REITs             :   5.5%
+  Emerging Market Equities      :   4.0%
+
+Performance summary (top 10):
+  Average Sharpe Ratio: 0.6969
+  Average CAGR: 7.43%
+  Average Volatility: 8.45%
+  Average Max Drawdown: -27.65%

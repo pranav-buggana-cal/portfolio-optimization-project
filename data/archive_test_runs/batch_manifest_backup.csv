@@ -1,0 +1,5 @@
+batch_num,portfolios,results_file
+4,"['Grid_010', 'Grid_011', 'Grid_012']",/Users/toohla/Documents/GitHub/am_final_proj_25/data/source_tables/portfolio_backtest_results_batch_004_20251213_141012.xlsx
+1,"['Grid_001', 'Grid_002', 'Grid_003']",/Users/toohla/Documents/GitHub/am_final_proj_25/data/source_tables/portfolio_backtest_results_batch_001_20251213_142220.xlsx
+2,"['Grid_004', 'Grid_005', 'Grid_006']",/Users/toohla/Documents/GitHub/am_final_proj_25/data/source_tables/portfolio_backtest_results_batch_002_20251213_142251.xlsx
+3,"['Grid_007', 'Grid_008', 'Grid_009']",/Users/toohla/Documents/GitHub/am_final_proj_25/data/source_tables/portfolio_backtest_results_batch_003_20251213_142322.xlsx
